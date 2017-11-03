@@ -1,0 +1,32 @@
+---
+title: "Coursera Developing Data Products Course Project"
+author: "Aswin Andrianto"
+date: "November 2, 2017"
+output: ioslides_presentation
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Application Overview
+This application helps you to memorize the various department names of France by indicating them in a blank map
+
+## How It Works
+- The application is written in Shiny which is a web application framework for R
+- The source code consists of two files: **server.R** and **ui.R**
+- **server.R** includes the the server logic of a Shiny web application
+- **ui.R** includes the the user-interface definition, which uses the sidebarLayout template
+- The application leverages the **maps** and **mapdata** libraries for displaying the map
+- The application is hosted on Rstudio's shiny server in the cloud (Shinyapps.io)
+
+## Using the App
+- pick a department name from the drop-down list
+- the selected department will be highlighted in the blank map
+
+## References
+- Application URL: https://aswinan90.shinyapps.io/coursera_developing_data_products_course_project/
+- Github Repository URL: https://github.com/aswinan/Coursera-Developing-Data-Products
+
+
